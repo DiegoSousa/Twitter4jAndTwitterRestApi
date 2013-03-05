@@ -4,3 +4,10 @@
 *.jar
 *.war
 *.ear
+build
+target
+WebContent
+*.txt
+*.json
+*.properties
+.project
