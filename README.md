@@ -1,16 +1,16 @@
-<h1>Twitter4j And TwitterRestApi
+<h1>Twitter4j or TwitterRestApi
 
 Implementation of authentication with Twitter using OAuth protocol and 
-Junit unit tests of the functionality of twitter. eg: Status Update
+Junit unit tests of the functionality of twitter.
 
 To view the example of OAuth authentication using the REST API v1.1 and using Twitter4J, 
-look at the classes "AuthTwitterRest.java" and "AuthTwitter4j.java" respectively.
+look at the classes "AuthTwitterRest.java" or "AuthTwitter4j.java" respectively.
 
 To test the application run the test classes contained in the package test/
 
 <h1>Requirements:
 
-# Maven<br />
+- Maven<br />
 
 <b>2 - To install Maven:<b>
 
@@ -28,8 +28,7 @@ To test the application run the test classes contained in the package test/
 
 <b>2 - In eclipse go in:<b>
 
-	file -> import -> type in the search above "Existing maven projects" -> next -> Browser ->
-        select the project Twitter4jAndTwitterRestApi -> Finish.
+	file -> import -> type in the search above "Existing maven projects" -> next -> Browser -> select the project Twitter4jAndTwitterRestApi -> Finish.
 
 <b>3 - Wait until the maven download all libraries.<b>
 
