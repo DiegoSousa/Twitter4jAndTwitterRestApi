@@ -4,7 +4,7 @@ Twitter4j or TwitterRestApi
 Implementation of authentication with Twitter using OAuth protocol and 
 Junit unit tests of the functionality of twitter.
 
-To view the example of OAuth authentication using the REST API v1.1 and using Twitter4J, 
+To view the example of OAuth authentication using the REST API v1.1 or using Twitter4J, 
 look at the classes "AuthTwitterRest.java" or "AuthTwitter4j.java" respectively.
 
 To test the application run the test classes contained in the package test/
@@ -39,7 +39,7 @@ To correctly import the application just follow the following steps.
 
 <b>Contact</b> diego[at]diegosousa[dot]com <b>or</b> diego.sousa[at]dce.ufpb.br
 
-More Info:<br />
+<b>More Info:</b><br />
 OAuth - https://dev.twitter.com/docs/auth/oauth/faq<br />
 Twitter REST API v1.1: https://dev.twitter.com/docs/api/1.1<br />
 Twitter4j - http://twitter4j.org/en/index.html<br />
