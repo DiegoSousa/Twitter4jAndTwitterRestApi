@@ -1,7 +1,7 @@
 <h1>Twitter4j And TwitterRestApi
 
 Implementation of authentication with Twitter using OAuth protocol and 
-Junit unit tests of the functionality of twitter. eg: Status Update.
+Junit unit tests of the functionality of twitter. eg: Status Update
 
 To view the example of OAuth authentication using the REST API v1.1 and using Twitter4J, 
 look at the classes "AuthTwitterRest.java" and "AuthTwitter4j.java" respectively.
@@ -10,17 +10,17 @@ To test the application run the test classes contained in the package test/
 
 <h1>Requirements:
 
-Maven<br />
+# Maven<br />
 
 <b>2 - To install Maven:<b>
 
-        In Eclipse go in -> Help -> Eclipse MarketPlace -> install the "Maven Integration for eclipse WTP".
+	In Eclipse go in -> Help -> Eclipse MarketPlace -> install the "Maven Integration for eclipse WTP".
 
 <h1>To correctly import the application just follow the following steps.
 
 <b>1 - Using a Terminal or a Customer Git, do the clone within your workspace.<b>
 
-        $ cd ~/workspace/
+	$ cd ~/workspace/
 
 <b>1.1 - Ctrl+C and Ctrl+Shift+V in terminal:<b>
 
@@ -28,7 +28,7 @@ Maven<br />
 
 <b>2 - In eclipse go in:<b>
 
-        file -> import -> type in the search above "Existing maven projects" -> next -> Browser ->
+	file -> import -> type in the search above "Existing maven projects" -> next -> Browser ->
         select the project Twitter4jAndTwitterRestApi -> Finish.
 
 <b>3 - Wait until the maven download all libraries.<b>
@@ -39,9 +39,9 @@ Maven<br />
 
 <b>Contact</b> diego[at]diegosousa[dot]com <b>or</b> diego.sousa[at]dce.ufpb.br
 
-More Info:
-OAuth - https://dev.twitter.com/docs/auth/oauth/faq
-Twitter REST API v1.1: https://dev.twitter.com/docs/api/1.1
-Twitter4j - http://twitter4j.org/en/index.html
+More Info:<br />
+OAuth - https://dev.twitter.com/docs/auth/oauth/faq<br />
+Twitter REST API v1.1: https://dev.twitter.com/docs/api/1.1<br />
+Twitter4j - http://twitter4j.org/en/index.html<br />
 Rules tmplementation OAuth - https://dev.twitter.com/docs/auth/implementing-sign-twitter
 
