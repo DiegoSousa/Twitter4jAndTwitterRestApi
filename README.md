@@ -1,4 +1,5 @@
-<h1>Twitter4j or TwitterRestApi
+Twitter4j or TwitterRestApi
+===========================
 
 Implementation of authentication with Twitter using OAuth protocol and 
 Junit unit tests of the functionality of twitter.
@@ -8,16 +9,16 @@ look at the classes "AuthTwitterRest.java" or "AuthTwitter4j.java" respectively.
 
 To test the application run the test classes contained in the package test/
 
-<h1>Requirements:
-
-- Maven<br />
+Requirements:
+=============
++ Maven<br />
 
 <b>2 - To install Maven:<b>
 
 	In Eclipse go in -> Help -> Eclipse MarketPlace -> install the "Maven Integration for eclipse WTP".
 
-<h1>To correctly import the application just follow the following steps.
-
+To correctly import the application just follow the following steps.
+====================================================================
 <b>1 - Using a Terminal or a Customer Git, do the clone within your workspace.<b>
 
 	$ cd ~/workspace/
