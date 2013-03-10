@@ -36,13 +36,15 @@ public class Twitter4jTest {
 	@Test
 	public void testStatus() throws Exception {
 
-		for (int c = 11; c <= 20; c++) {
-			
-			String statusActual = "Testando Update Status com Twitter4j e app AuthTwitter - Update - "
-					+ c + " Developer by: @diego_sousa_ ";
+		for (int c = 21; c <= 22; c++) {
+
+			String statusActual = "@"
+					+ twitter.getScreenName()
+					+ " Testando Update Status com Twitter4j e app AuthTwitter - Update - "
+					+ c + " Developer by: @diego_sousa_";
 			Status status = twitter.updateStatus(statusActual);
 			assertEquals(statusActual, status.getText());
-		
+
 		}
 	}
 }

@@ -193,6 +193,8 @@ public class AuthTwitterRest {
 						jsonAccessToken.getString("access_token"));
 				prop.setProperty("oauth.accessTokenSecret",
 						jsonAccessToken.getString("access_token_secret"));
+				prop.setProperty("screen_name",
+						jsonAccessToken.getString("screen_name"));
 				os = new FileOutputStream(file);
 				prop.store(os, fileProperties);
 			} catch (IOException e) {
@@ -644,5 +646,8 @@ public class AuthTwitterRest {
 
 	public String getAccessTokenSecret() {
 		return prop.getProperty("oauth.accessTokenSecret");
+	}
+	public String getScreenName() {
+		return prop.getProperty("screen_name");
 	}
 }

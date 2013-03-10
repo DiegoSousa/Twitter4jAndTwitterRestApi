@@ -53,21 +53,23 @@ public class TwitterRestTest {
 	@Test
 	public void testStatus() throws Exception {
 
-		for (int c = 11; c <= 20; c++) {
+		for (int c = 23; c <= 24; c++) {
 
-			String status = "Testando Update Status com Twitter REST API v 1.1 e app AuthTwitter - Update - "
-					+ c + " Developer by: @diego_sousa_ ";
-			
+			String status = "@"
+					+ authTwitterRest.getScreenName()
+					+ " Testando Update Status com Twitter REST API v 1.1 e app AuthTwitter - Update - "
+					+ c + " Developer by: @diego_sousa_";
+
 			HttpPost request = new HttpPost(
 					"https://api.twitter.com/1.1/statuses/update.json?status="
 							+ authTwitterRest.encode(status));
 			consumer.sign(request);// OAuth
 			HttpResponse response = client.execute(request);
-			
+
 			assertTrue(response.getStatusLine().getStatusCode() == 200);
-			
+
 			String json = IOUtils.toString(response.getEntity().getContent());
-			JSONObject jsonObject = new JSONObject(json);			
+			JSONObject jsonObject = new JSONObject(json);
 			assertEquals(status, jsonObject.getString("text"));
 		}
 	}
